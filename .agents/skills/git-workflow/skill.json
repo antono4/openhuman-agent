@@ -1,0 +1,27 @@
+{
+  "name": "git-workflow",
+  "description": "Git workflow operations - commit, branch, push, pull, and manage git history",
+  "category": "development",
+  "version": "1.0.0",
+  "author": "OpenHuman",
+  "tags": ["git", "version-control", "workflow", "commit"],
+  "entry_point": "main",
+  "requires": ["git"],
+  "config_schema": {
+    "default_branch": {
+      "type": "string",
+      "default": "main",
+      "description": "Default branch name"
+    },
+    "autocommit": {
+      "type": "boolean",
+      "default": false,
+      "description": "Automatically commit changes"
+    },
+    "push_on_commit": {
+      "type": "boolean",
+      "default": false,
+      "description": "Push after every commit"
+    }
+  }
+}

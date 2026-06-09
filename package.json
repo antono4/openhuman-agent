@@ -1,0 +1,33 @@
+{
+  "name": "openhuman-agent",
+  "version": "0.1.0",
+  "description": "Desktop AI agent with human-like capabilities",
+  "main": "src/agent.py",
+  "scripts": {
+    "dev": "python -m src.cli",
+    "test": "python -m pytest",
+    "lint": "pylint src/",
+    "format": "black src/",
+    "cli": "python -m src.cli",
+    "agent:list": "python -m src.cli agent list",
+    "skill:list": "python -m src.cli skill list"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "automation",
+    "desktop",
+    "developer-tools"
+  ],
+  "author": "OpenHuman",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "black": "^24.0.0",
+    "pylint": "^3.0.0",
+    "pytest": "^8.0.0"
+  },
+  "engines": {
+    "python": ">=3.10"
+  }
+}

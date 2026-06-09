@@ -1,0 +1,22 @@
+{
+  "name": "github-pr-manager",
+  "description": "Manage GitHub pull requests - create, update, review, and merge PRs",
+  "category": "development",
+  "version": "1.0.0",
+  "author": "OpenHuman",
+  "tags": ["github", "pr", "pull-request", "code-review"],
+  "entry_point": "main",
+  "requires": ["gh"],
+  "config_schema": {
+    "default_branch": {
+      "type": "string",
+      "default": "main",
+      "description": "Default target branch for PRs"
+    },
+    "auto_merge": {
+      "type": "boolean", 
+      "default": false,
+      "description": "Automatically merge PRs when checks pass"
+    }
+  }
+}
