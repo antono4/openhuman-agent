@@ -47,4 +47,4 @@ Thumbs.db
 # Project specific
 .env
 .env.local
-*.log
+*.logrelease/
