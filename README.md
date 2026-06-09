@@ -165,6 +165,50 @@ python -m pytest tests/test_agent.py -v
 python -m pytest tests/ --cov=src
 ```
 
+## Windows Executable (.exe)
+
+Pre-built executable tersedia di folder `release/openhuman-agent-win64/`
+
+### Cara Menjalankan di Windows
+
+1. **Buka Command Prompt (CMD)**
+   - Tekan `Windows + R`
+   - Ketik `cmd`, tekan Enter
+
+2. **Navigasi ke folder executable**
+   ```cmd
+   cd path\to\openhuman-agent-win64
+   ```
+
+3. **Jalankan perintah**
+   ```cmd
+   # List agents
+   openhuman-agent.exe agent list
+
+   # List skills
+   openhuman-agent.exe skill list
+
+   # Classify command (cek keamanan)
+   openhuman-agent.exe classify "rm -rf /temp"
+
+   # Git status
+   openhuman-agent.exe execute "git status"
+   ```
+
+4. **Atau gunakan run.bat** untuk menu interaktif
+   ```cmd
+   run.bat
+   ```
+
+### Build Ulang di Windows
+
+```cmd
+# Install Python dari python.org (3.10+)
+# Buka CMD, navigasi ke project folder
+pip install pyinstaller
+build.bat
+```
+
 ## License
 
 MIT
