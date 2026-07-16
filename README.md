@@ -1,5 +1,8 @@
 # OpenHuman AI Agent
 
+> **Created by Antono**
+
+
 A desktop AI agent inspired by [openhuman](https://github.com/tinyhumansai/openhuman), providing intelligent automation for development workflows, code review, and task management.
 
 ## Features
