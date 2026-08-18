@@ -1,1 +1,32 @@
-Last updated: 2026-08-18 20:03:09 WIB
+# openhuman-agent
+
+Desktop AI agent with human-like capabilities
+
+## 📋 Overview
+
+This repository contains **30 files** and is built with the following technologies:
+
+Node.js
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Node.js
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-08-18 20:34:00 WIB*
