@@ -1,81 +1,64 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">openhuman-agent 👋</h1>
+<h1 align="center">Project 👋</h1>
 
 <p align="center">
-  <em>openhuman-agent</em>
+  <strong></strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/antono4/openhuman-agent"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/openhuman-agent-blue?logo=github"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-25-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/openhuman-agent">
+  <a href="https://antono4.github.io/openhuman-agent/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-28-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 08:09:56 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`openhuman-agent`** adalah proyek Node.js yang dibangun dengan Python.
-GitHub Pages belum diaktifkan untuk repository ini.
+Repository **`openhuman-agent`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/openhuman-agent/`](https://antono4.github.io/openhuman-agent/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 openhuman-agent/
-.agents/
-  agents/
-  skills/
-.github/
-  workflows/
-.gitignore
-AGENTS.md
-LICENSE
-build.bat
-build.sh
-docs/
-  README.md
-openhuman.spec
-package.json
-src/
-  __init__.py
-  agent.py
-  cli.py
-  skill_loader.py
-  tools.py
-tests/
-  __init__.py
-  test_agent.py
-  test_skill_loader.py
-  test_tools.py
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
 ```
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
 - `Python`
 
-> Total **25 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **28 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Butuh Node.js:
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
 ```bash
-npm install
-npm run dev
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/openhuman-agent/](https://antono4.github.io/openhuman-agent/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 08:09:56 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
